@@ -1,0 +1,77 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+/* My Sign up site */
+#sign-up-site{
+  display: block;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+#sign-up-header{
+  display:block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* My Sign up header */
+#header-signup-form{
+  min-height: 751px;
+  min-width: 1519px;
+  background-image: url("images/register.jpg");
+  background-size: cover;
+}
+/* Register Form */
+.register-form{
+  display:inline-block;
+  float:left;
+  margin-top: 222px;
+  margin-left: 615px;
+}
+/* My Container */
+.input-container{
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* My Icons */
+.icon{
+  min-width: 50px;
+  background: #004916;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  padding: 10px;
+}
+
+/* My Input fields */
+.input-field{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus{
+  border: 2px solid #004916;
+}
+
+/* My Submit button*/
+.btn{
+  background-color: #004916;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover{
+  opacity: 1;
+}
